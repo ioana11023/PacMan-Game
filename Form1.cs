@@ -15,12 +15,14 @@ namespace Pacman_Game
 
         bool goup, godown, goleft, goright, isGameOver;
 
-        int score, playerSpeed = 8, redGhostSpeed = 5, yellowGhostSpeed = 5, pinkGhostX , pinkGhostY = 5;
+        int score, playerSpeed, redGhostSpeed, yellowGhostSpeed, pinkGhostX , pinkGhostY;
 
 
         public Form1()
         {
             InitializeComponent();
+            
+            resetGame();
         }
 
         private void keyisdown(object sender, KeyEventArgs e)
@@ -219,7 +221,6 @@ namespace Pacman_Game
 
             redGhostSpeed = 5;
             yellowGhostSpeed = 5;
-            pinkGhostX = 5;
             pinkGhostY = 5;
             playerSpeed = 8;
 
