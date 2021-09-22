@@ -15,7 +15,7 @@ namespace Pacman_Game
 
         bool goup, godown, goleft, goright, isGameOver;
 
-        int score, playerSpeed, redGhostSpeed, yellowGhostSpeed, pinkGhostX, pinkGhostY;
+        int score, playerSpeed = 8, redGhostSpeed = 5, yellowGhostSpeed = 5, pinkGhostX , pinkGhostY = 5;
 
 
         public Form1()
